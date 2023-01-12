@@ -1,0 +1,504 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: ok
+  examples: |
+    - ok
+    - yes
+    - next
+    - move to the next question
+    - please move
+    - the next question
+    - next question please
+    - next please
+    - move next
+    - show me next question
+    - ya
+    - sure
+    - yes next
+
+- intent: Stop
+  examples: |
+    - Let’s stop the test series.
+    - Let’s finish the test series.
+    - stop the test
+    - stop
+    - finish the test
+    - finish
+
+
+- intent: Thanks
+  examples: |
+    - Thanks
+    - Thank you
+
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am good
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    
+- intent: 
+  examples: |
+    - How are you?
+    - How are you feeling?
+    - How are you doing?
+    - What's up?
+  
+- intent: Whataretheproblemsintheeducationindustrytoday
+  examples: |
+    - What are the problems in the education industry today?
+    - Education industry problems today?
+    - problems in the education industry today?
+
+- intent: repeat
+  examples: |
+    - repeat
+    - Can you please repeat
+    - Can you please repeat the question
+    - sorry can you please repeat
+    - please repeat the question
+    - please speak the question
+    - tell the question again
+    - repeat the question
+    - show the question
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am not feeling well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+# - intent: bot_challenge
+#   examples: |
+#     - are you a bot?
+#     - are you a human?
+#     - am I talking to a bot?
+#     - am I talking to a human?
+
+- intent: bot_exam
+  examples: |
+    - start a new test?
+    - exam?
+    - Ready for test?
+    - Test?
+    - Give the exam?
+
+- intent: OptionsA
+  examples: |
+    - A is the correct Answer
+    - a is correct
+    - Choose A
+    - A
+    - The correct Answer is A
+    - the first one
+    - 1
+    - one is correct
+    - Option A
+    - Option 1
+    - one
+    - The answer is option A
+
+- intent: OptionsB
+  examples: |
+    - B is the correct Answer
+    - B is correct
+    - Choose B
+    - B
+    - Option 2
+    - The correct Answer is B
+    - the second one
+    - 2
+    - two is correct
+    - Option B
+    - Two
+    - The answer is option B
+
+- intent: OptionsC
+  examples: |
+    - C is the correct Answer
+    - C is correct
+    - Choose C
+    - C
+    - Option 3
+    - The correct Answer is C
+    - the third one
+    - 3
+    - three is correct
+    - Option C
+    - Three
+    - The answer is option C
+
+- intent: OptionsD
+  examples: |
+    - D is the correct Answer
+    - D is correct
+    - Choose D
+    - D
+    - Option 4
+    - The correct Answer is D
+    - the forth one
+    - 4
+    - FOUR is correct
+    - Option D
+    - Four
+    - The answer is option D
+
+- intent: OptionsE
+  examples: |
+    - E is the correct Answer
+    - E is correct
+    - Choose E
+    - E
+    - The correct Answer is E
+    - the fifth one
+    - 5
+    - Five is correct 
+    - Option E
+    - Option 5
+    - Five
+    - The answer is option E
+
+
+- intent: Topic_Anemia
+  examples: |
+    - What is Anemia?
+    - What do you mean by Anemia?
+    - Do you understand Anemia?
+    - Anemia is what?
+    - Define Anemia?
+    - Can you explain anemia?
+
+
+# - intent: Topic_AnemiaType
+#   examples: |
+#     - What are the types of Anemia?
+#     - What are different kinds of Anemia?
+#     - How many types of Anemia?
+#     - Number of Anemia Types?
+#     - Can you explain anemia type?
+
+# - intent: Topic_SymptomsofAnemia
+#   examples: |
+#     - What are the Symptoms of Anemia?
+#     - Sign of Anemia?
+#     - indicator of Anemia?
+#     - Anemia indication?
+#     - Can you explain anmeaia Symptoms?
+
+# - intent: Topic_anatomy
+#   examples: |
+#     - What is anatomy?
+#     - What do you mean by anatomy?
+#     - Do you understand anatomy?
+#     - anatomy is what?
+#     - Define anatomy?
+
+# - intent: Topic_anatomyType
+#   examples: |
+#     - What are the types of anatomy?
+#     - What are different kinds of anatomy?
+#     - How many types of anatomy?
+#     - Number of anatomy Types
+
+# - intent: Topic_Symptomsofanatomy
+#   examples: |
+#     - What are the Symptoms of anatomy?
+#     - Sign of anatomy?
+#     - indicator of anatomy?
+#     - anatomy indication
+
+# - intent: Topic_cardiology
+#   examples: |
+#     - What is cardiology?
+#     - What do you mean by cardiology?
+#     - Do you understand cardiology?
+#     - cardiology is what?
+#     - Define cardiology?
+
+# - intent: Topic_cardiologyType
+#   examples: |
+#     - What are the types of cardiology?
+#     - What are different kinds of cardiology?
+#     - How many types of cardiology?
+#     - Number of cardiology Types
+
+# - intent: Topic_Symptomsofcardiology
+#   examples: |
+#     - What are the Symptoms of cardiology?
+#     - Sign of cardiology?
+#     - indicator of cardiology?
+#     - cardiology indication
+
+- intent: WhatisESR
+  examples: |
+    - What is ESR?
+    - Explain ESR?
+    - Define ESR?
+    - What do you mean by ESR?
+    - What do you understand by ESR?
+    - ESR
+    - What ESR stands for?
+    - Tell me about ESR?
+    - Do you understand ESR?
+    - Describe the term Erythrocyte sedimentation rate?
+
+
+
+
+- intent: WhatdoesMCVmean
+  examples: |
+    - What does MCV mean?
+    - What do you mean by MCV?
+    - Explain MCV mean?
+    - define MCV mean?
+    - What do you understand by MCV?
+    - MCV?
+    - Do you understand MCV?
+    - Define MCV?
+    - What are the different types of MCV?
+    - What are the ranges of different types of MCV?
+    - Explain MCV?
+    - MCV is what?
+    - Tell me about MCV?
+    - What is Mean Corpuscular Volume?
+
+- intent: Whatisedyou
+  examples: |
+    - What is edyou?
+    - What is edu?
+    - Tell me something about edyou?
+    - Do you know about edyou?
+    - What is edyou about?
+    - what edyou does?
+    - What is the role of edyou?
+    - Tell me something about edu?
+    - Do you know about edu?
+    - What is edu about?
+    - what edu does?
+    - What is the role of edu?
+
+- intent: Whatcareertracksdoesedyouprovide
+  examples: |
+    - What career tracks does edyou provide?
+    - What career tracks does edu provide?
+    - What courses are available?
+    - What courses does edyou provide?
+    - What courses does edu provide?
+    - What courses are available?
+    - Which career tracks is available?
+
+
+- intent: Whichlanguagesdoesedyousupport
+  examples: |
+    - Which languages does edyou support?
+    - What languages do you support?
+    - Which languages can you speak?
+    - What are the languages spoken by you?
+    - Any other language you can speak?
+
+- intent: WhencanIlearn
+  examples: |
+    - When can I learn?
+    - What are the timings of the AI tutor?
+    - Timings for the AI tutor to be available?
+  
+- intent: Whatisthevisionofcompany
+  examples: |
+    - What is the vision of company?
+    - Vision of Company?
+    - What the company vision is?
+    - What is the vision of edyou?
+    - Vision of edyou?
+    - What the edyou vision is?
+    - What is the vision of edu?
+    - Vision of edu?
+    - What the edu vision is?
+- intent: Howwilledyouhelpme
+  examples: |
+    - How will edyou help me?
+    - Is edyou help for me?
+    - How edyou helping me for my future
+    - What is the use of edyou app?
+    - What is the purpose of edyou?
+    - How will edu help me?
+    - Is edu help for me?
+    - How edu helping me for my future
+    - What is the use of edu app?
+    - What is the purpose of edu?
+
+
+- intent: Whatistotalironbindingcapacity
+  examples: |
+    - What is total iron binding capacity?
+    - explain total iron binding capacity?
+    - define total iron binding capacity?
+    - Iron Binding Capacity?
+    - total iron binding capacity?
+    - What do you understand by total iron binding capacity?
+    - Define the term total iron binding capacity?
+    - What is TIBC?
+    - What is the use of total iron binding capacity?
+    - Do you know about total iron binding capacity?
+
+
+- intent: Whatisanupperendoscopy
+  examples: |
+    - What is an upper endoscopy?
+    - Explain is an upper endoscopy?
+    - Define an upper endoscopy?
+    - upper endoscopy?
+    - Define upper endoscopy?
+    - Describe the upper endoscopy?
+    - Explain upper endoscopy?
+    - What do you mean by upper endoscopy?
+    - Tell me about upper endoscopy?
+    - Upper endoscopy is what?
+
+
+- intent: Whatisaspherocyte
+  examples: |
+    - What is a spherocyte?
+    - Explain is a spherocyte?
+    - Define spherocyte?
+    - spherocyte?
+    - What is parasite?
+    - parasite?
+    - Do you know about spherocytes?
+    - Spherocyte is what?
+    - Tell me about spherocytes?
+    - What does the term spherocytes mean?
+    - Describe spherocytes?
+
+
+- intent: WhatisadirectCoombstest
+  examples: |
+    - What is a direct Coombs test?
+    - Coombs test
+    - How to perform Coombs test?
+    - Define direct Coombs test?
+    - Explain direct Coombs test?
+    - Tell me about the direct Coombs test?
+    - Do you know about the direct Coombs test?
+    - Direct Coombs test is what?
+    - How do direct Coombs tests work?
+
+- intent: Whatisbluelightphototherapy
+  examples: |
+    - What is blue light phototherapy?
+    - explain blue light phototherapy?
+    - Define blue light phototherapy?
+    - blue light phototherapy?
+    - What do you mean by blue light phototherapy?
+    - Blue light phototherapy is what?
+    - Tell me about blue light phototherapy?
+
+
+- intent: Whatisthesignificanceofdarkurine
+  examples: |
+    - What is the significance of dark urine?
+    - Explain the significance of dark urine?
+    - Define the significance of dark urine?
+    - Dark urine?
+    - What is dark urine?
+    - Explain dark urine?
+    - Dark urine is what?
+    - Do you know about dark urine?
+    - Tell me about dark urine?
+    - Define the term dark urine?
+
+
+- intent: Whatisacuteliverfailure
+  examples: |
+    - What is acute liver failure?
+    - Explain acute liver failure?
+    - Define acute liver failure?
+    - acute liver failure?
+    - Acute liver failure is what?
+    - Do you know about acute liver failure?
+    - Tell me about  acute liver failure?
+    - What do you mean by acute liver failure?
+    - Do you understand acute liver failure?
+
+
+# - intent: Dont_know
+#   examples: |
+#     - Do you know the answer
+#     - What is the possible Solution
+#     - what is the solution
+#     - have a possible solutions
+#     - anything to help
+#     - whats up
+#     - Can you tell me   
+
+
+
+
+# - intent: moreinfo
+  # examples: |
+  #   - want to know more
+  #   - know something more
