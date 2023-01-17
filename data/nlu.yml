@@ -90,7 +90,7 @@ nlu:
     - so good
     - so perfect
     
-- intent: 
+- intent: Howareyou 
   examples: |
     - How are you?
     - How are you feeling?
